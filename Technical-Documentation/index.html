@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css" >
+        <title>Python Beginner Documentation</title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>Python Beginner Documentation</header>
+            <ul>
+                <li>
+                    <a class="nav-link" href="#Hello_World">Hello World</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Variable_Types">Variable Types</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Basic_Operators">Basic Operators</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#While_Loop">While Loop</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#For_Loop">For Loop</a>
+                </li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Hello_World">
+                <header>Hello World</header>
+                <article>
+                    <p>
+                        The Python language has many similarities to Perl, C, and Java. However, there are some
+                        definite differences between the languages.
+                    </p>
+                    <p>To print your first 'Hello World' program. Type the following text at the Python prompt 
+                        and press the Enter:</p>
+                    <code>>>> print "Hello World"</code>
+                </article>
+            </section>
+            <section class="main-section" id="Variable_Types">
+                <header>Variable Types</header>
+                <article>
+                    <p>Variables are nothing but reserved memory locations to store values. This means that 
+                        when you create a variable you reserve some space in memory.</p>
+                        <p>Based on the data type of a variable, the interpreter allocates memory and decides
+                            what can be stored in the reserved memory. Therefore, by assigning different data
+                            types to variables, you can store integers, decimals or characters in these variables.
+                        </p>
+                        <p>Python has five standard data types: </p>
+                        <ul>
+                            <li>Numbers</li>
+                            <li>String</li>
+                            <li>List</li>
+                            <li>Tuple</li>
+                            <li>Dictionary</li>
+                        </ul>
+                        <p>To assign a value to a variable follow the next example:</p>
+                        <code>counter =100          # An integer assignment <br>
+                        miles   = 1000.0       # A floating point<br>
+                        name    = "John"       # A string</code>
+                </article>
+            </section>
+            <section class="main-section" id="Basic_Operators">
+                <header>Basic Operators</header>
+                <article>
+                    <p>Arithmetic Operator: </p>
+                    <ul>
+                        <li>Addition: +</li>
+                        <li>Substraction: -</li>
+                        <li>Multiplication: *</li>
+                        <li>Division: /</li>
+                        <li>Modulus: %</li>
+                        <li>Exponent: **</li>
+                        <li>Floor division: //</li>
+                    </ul>
+                    <code>
+                        a = 10<br>
+                        b = 5<br>
+                        a + b = 15
+                    </code>
+                    <p>Comparison Operators: </p>
+                    <ul>
+                        <li>Equal: ==</li>
+                        <li>Not Equal: !=</li>
+                        <li>Greater Than: ></li>
+                        <li>Less Than: < </li>
+                        <li>Greater or Equal: >=</li>
+                        <li>Less or Equal: <=</li>
+                    </ul>
+                    <code>
+                        a = 10<br>
+                        b = 10<br>
+                        a == b  # TRUE
+                    </code>
+                </article>
+            </section>
+            <section class="main-section" id="While_Loop">
+                <header>While Loop</header>
+                <article>
+                    <p>Repeats a statement or group of statements while a given condition is TRUE.
+                         It tests the condition before executing the loop body. Example: </p>
+                    <code>while (condition) statement</code>
+                </article>
+            </section>
+            <section class="main-section" id="For_Loop">
+                <header>For Loop</header>
+                <article>
+                    <p>
+                        Executes a sequence of statements multiple times and abbreviates the code 
+                        that manages the loop variable.
+                    </p>
+                    <code>fruits = ["apple", "banana", "cherry"]<br>
+                        for x in fruits:<br>
+                          print(x)</code>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
